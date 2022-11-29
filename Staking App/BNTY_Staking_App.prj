@@ -1,0 +1,52 @@
+<deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\M\Documents\MATLAB\Year 4\BNTY_Staking_App.prj" location="C:\Users\M\Documents\MATLAB\Year 4" name="BNTY_Staking_App" target="target.webdeploy" target-name="Web App Compiler">
+    <param.appname>BNTY_Staking_App</param.appname>
+    <param.intermediate>${PROJECT_ROOT}\BNTY_Staking_App</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\BNTY_Staking_App</param.files.only>
+    <param.output />
+    <param.checkbox>false</param.checkbox>
+    <param.logdir>${PROJECT_ROOT}\BNTY_Staking_App</param.logdir>
+    <param.target.type>subtarget.web.app</param.target.type>
+    <param.user.defined.mcr.options />
+    <param.support.packages />
+    <unset>
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.checkbox />
+      <param.logdir />
+      <param.target.type />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+    </unset>
+    <fileset.web.main>
+      <file>${PROJECT_ROOT}\BNTY_Staking_App.mlapp</file>
+    </fileset.web.main>
+    <fileset.resources />
+    <fileset.depfun />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\BNTY_Staking_App" name="BNTY_Staking_App.ctf" optional="false">C:\Users\M\Documents\MATLAB\Year 4\BNTY_Staking_App\BNTY_Staking_App.ctf</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>E:\MATLAB</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
